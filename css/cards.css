@@ -1,0 +1,84 @@
+/* SPEAKERS */
+.speakers .title {
+    text-align: center;
+}
+
+.title h6 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+
+.speakers .container-speakers {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.speakers .card {
+    width: 30%;
+    min-width: 300px;
+}
+
+.speakers .card img {
+    width: 100%;
+}
+
+.speakers .card :not(img) {
+    padding: 0 1rem;
+}
+
+.card .skills {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.card .skills h6 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.3rem;
+}
+
+.card p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+
+.card .skills .yellow {
+    background-color: rgb(255, 187, 0);
+    border-radius: 5px;
+}
+
+.card .skills .cyan {
+    background-color: rgb(0, 195, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.card .skills .grey {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+.card .skills .magenta {
+    background-color: rgb(161, 18, 49);
+    color: white;
+    border-radius: 5px;
+}
+

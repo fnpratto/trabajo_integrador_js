@@ -1,0 +1,58 @@
+
+.imagen_principal {
+  background-image: url(../imagenestp/ba1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 65vh;
+  color: var(--gray-200);
+}
+
+.imagen_principal .shadow {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.imagen_principal .container-flex {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.imagen_principal .content {
+  color:white;
+  width: 50%;
+  margin-bottom: 20vh;
+  text-align: right;
+}
+
+
+@media(max-width: 576px) {
+  .imagen_principal .buttonarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+@media(max-width: 992px) {
+  .showcase .content {
+    width: 100%;
+    margin-bottom: 20vh;
+    text-align: center;
+  }
+
+  .showcase .buttonarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .form .container-form {
+    width: 65vw;
+  }
+
+}

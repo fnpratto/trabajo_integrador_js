@@ -1,0 +1,30 @@
+.navbar-brand-h1 {
+  color:white;
+  font-size : 1.3rem ; 
+  margin :0 ;
+  padding :0 ;
+}   
+
+.navbar img{
+  width : 80px ;
+  margin-left: 3rem;
+  margin-right : 1rem ;
+  padding : 1rem 0 ;
+}  
+ 
+.navbar-nav > li {
+      float: none;
+      display: inline-block;
+    }
+
+.navbar-nav {
+  text-align : left; 
+} 
+
+
+.navbar-nav a:last-child{
+  color : #009349 ;
+} 
+
+
+
